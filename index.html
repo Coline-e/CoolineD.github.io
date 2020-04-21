@@ -1,0 +1,164 @@
+<html>
+<head>
+	<title>Portfolio DARIVON Coline1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylePage/Presentation.css">
+	<link rel="stylesheet" href="stylePage/slider.css">
+	<link rel="stylesheet" href="stylePage/ContenuePresentation.css">
+	<script type="text/javascript" src="Script/slider.js"></script>
+	
+</head>
+
+<body>
+<div id="main">
+	<header>
+	<nav>
+	<label for="menu-mobile" class="menu-mobile"> Menu </label>
+	<input type="checkbox" id="menu-mobile" role="button">
+	<ul>
+		<!--Menu-->
+	<li class="menu-presentation"><a href="index.html"> Presentation</a>
+	<ul class="submenu">
+		<li><a href="#TitrePro">Mon Profil</a></li>
+		<li><a href="#CentreInt">Mes centres d'interet</a></li>
+		<li><a href="#TitreAncre">Mon CV</a></li>
+	 </ul>
+	 </li>
+	 
+	 <li class="menu-parcours"><a href="MonParcours.html"> Mon Parcours </a>
+	<ul class="submenu">
+		<li><a href="MonParcours.html">Ma formation</a></li>
+		<li><a href="MonParcours.html">Mes experiences professionels</a></li>
+		<li><a href="MonParcours.html">Mes Logiciel</a></li>
+	 </ul>
+	 </li>
+	 
+	 <li class="menu-projets"><a href="MesProjets.html"> Mes Projets </a>
+		<ul class="submenu">
+		</ul>
+	 </li>
+	 
+	 <li class="menu-veilles"><a href=""> Veilles </a>
+		<ul class="submenu">
+		<li><a href="VeilleTechno.html">Veille Technologiques</a></li>
+		<li><a href="VeilleJuridique.html">Veille Juridique</a></li>
+	 </ul>
+	 </li>
+	 
+	 <li class="menu-contact"><a href="Contact.html"> Contact </a></li>
+	 
+	 
+	 <li class="menu-coline"><a href="index.html"> Darivon Coline </a></li>
+	 </ul>
+	 </nav>
+	 </header>
+	
+	<!--
+	 <div id="test">
+      <img src="img/slide_img1.jpg" alt="" title="">
+      <div id="test2">
+        TEST
+      </div>
+    </div>-->
+	
+<!--SliderShow-->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="ImagePresentation/SliderShow/coding.jpg" style="width:100%">
+  <!--<div class="text">Mon Profil</div>-->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="ImagePresentation/SliderShow/entreprise.jpg" style="width:100%">
+  <!--<div class="text">Mes Projets</div>-->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="ImagePresentation/SliderShow/keyboard.jpg" style="width:100%">
+  <!--<div class="text">Mes veilles</div>-->
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+	<!--Contenue de la div-->
+	
+	<div id="TitrePro" class="TitreProfil">
+	Bienvenue sur mon Portfolio moi c'est Coline !
+	</div>
+	
+	<div class="contenueProfil">
+	Je m'appelle Coline DARIVON, j'ai 20 ans je suis étudiante en 2eme année en BTS SIO (Service Informatique aux
+	Organisations), en spécialité SLAM (Solutions Logicielles et Applications Métiers), au Lycée Parc des Loges qui 
+	se situe à Evry.</br>
+	J'ai choisi l'option SLAM, car il est plus centré sur le développement et les logiciels comparés à l'option SISR (Solutions d'Infrastructure, Systèmes et Réseaux).</br>
+	Avant ce BTS j'étais en terminal STMG (Sciences et Technologies du management et de la Gestion) spécialité SIG (systèmes d'Information de Gestion) j'ai donc eu un avant-goût de ce qui m'attendrais pendant ces 2 ans au sein du BTS SIO.</br>
+Ce portfolio à été mis en place pour vous présenter mes compétences que j'ai acquises tout au long de ces 2 années et en entreprise et mes motivations.</br>
+Vous pourrez a travers le portfolio consulter les différents projets auxquels j'ai participée ou créee, vous pourrez aussi me contacter ! =)
+	
+	</div>
+	
+	<!--Contenue de la div centre d'interet-->
+	<div id="CentreInt" class="TitreInteret">
+	Mes centres d'intérêts !
+	
+	</div>
+	
+	<div class="contenueCentre">
+	<!-- div image jap -->
+	<div class="centreJap"> <img src="ImagePresentation/CentreInterets/japan.png" class="imgCentre"> <p>Culture japonaise (Cours de japonais pendant 3 ans)</p> </div>
+	
+	<!-- div image jeux -->
+	<div class="centreJeux"> <img src="ImagePresentation/CentreInterets/ps4.jpg" class="imgCentre"> <p>Jeux Videos</p> </div>
+	
+	<!-- div image montage -->
+	<div class="centreMontage"> <img src="ImagePresentation/CentreInterets/montages.jpg" class="imgCentre"> <p>Montages vidéos et bannières</p> </div>
+	
+	
+	</div>
+	
+	
+
+	
+	<!--Contenue de la div cv-->
+	<div id="TitreAncre" class="TitreCv">
+	Mon Curriculum Vitae a consulté !
+	</div>
+	
+	<a div class="CvPdf" href="monCV/CVDarivonColine.pdf" >CV au format pdf</a>
+    <!-- <div class="monCV"> okok </div>-->
+   <!-- <iframe frameborder="0" width="50%" height="150"src="monCV/CVDarivonColine.pdf"></iframe>
+    </div>-->
+<!--	<embed src=http://portfolio-coline-bts-sio.000webhostapp.com/CVDarivonColine.pdf width=800 height=500 type='application/pdf'/>-->
+	<!-- <a div class="CvTelechargable"   href="monCV/CVDarivonColine.pdf" download>Télecharger le CV</a>  -->
+	
+	</div>
+	
+	</div>
+	
+	</div>
+	
+	
+	<!-- footer bas de page -->
+
+	<footer>
+		DARIVON Coline - 2020
+	</footer>
+
+	
+</body>
+</html>
